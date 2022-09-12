@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text: #fff;
+    --color-bg: #181616;
+    --color-highlight: #ff0066;
+    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
+    --font-size-h1: clamp(2.7rem, 2.14rem + 2.8vw, 5.5rem);
+    --font-size-h2: clamp(2rem, 1.6rem + 2vw, 4rem);
+}
+
+html {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-size: var(--font-size-h1);
+}
+h2 {
+    font-size: var(--font-size-h2);
+}
