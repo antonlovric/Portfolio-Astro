@@ -15,3 +15,10 @@ h2 {
     align-items: center;
     height: 100vh;
 }
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
