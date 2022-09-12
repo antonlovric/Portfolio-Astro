@@ -1,9 +1,11 @@
 ---
 import Hero from '../components/Hero/Hero';
+import Header from '../components/Header/Header';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Anton Lovrić">
+    <Header client:load />
     <section>
         <Hero />
     </section>
