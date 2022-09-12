@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 256px;
+    padding: 0px 40px;
+}
+
+.text-container {
+    width: 65ch;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 21px;
+}

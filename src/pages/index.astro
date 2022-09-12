@@ -1,6 +1,8 @@
 ---
 import Hero from '../components/Hero/Hero';
 import Header from '../components/Header/Header';
+import SkillSection from '../components/SkillSection/SkillSection';
+import AboutSection from '../components/AboutSection/AboutSection';
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -8,5 +10,10 @@ import Layout from '../layouts/Layout.astro';
     <Header client:load />
     <section>
         <Hero />
+        <hr />
+        <main>
+            <AboutSection />
+            <!-- <SkillSection /> -->
+        </main>
     </section>
 </Layout>
