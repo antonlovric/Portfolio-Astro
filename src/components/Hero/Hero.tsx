@@ -9,8 +9,8 @@ const Hero = () => {
             </div>
             <div className='image-container'>
                 <picture>
-                    <source srcSet='src\assets\avatar-blob.png' media='(min-width: 800px)' />
-                    <img src='src\assets\avatar-blob-2.png' alt='' />
+                    <source srcSet='../src/assets/avatar-blob.png' media='(min-width: 800px)' />
+                    <img src='../src/assets/avatar-blob-2.png' alt='' />
                 </picture>
             </div>
         </section>
