@@ -1,0 +1,36 @@
+.subheading {
+    text-align: center;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    gap: 15px;
+
+    &__icon {
+        height: 86px;
+        width: 86px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact {
+        margin: 0;
+        &__icon {
+            height: 64px;
+            width: 64px;
+        }
+    }
+}

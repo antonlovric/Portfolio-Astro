@@ -5,6 +5,7 @@ import SkillSection from '../components/SkillSection/SkillSection';
 import AboutSection from '../components/AboutSection/AboutSection';
 import Layout from '../layouts/Layout.astro';
 import ProjectSection from '../components/ProjectSection/ProjectSection';
+import ContactSection from '../components/ContactSection/ContactSection';
 ---
 
 <Layout title='Anton Lovrić'>
@@ -18,6 +19,8 @@ import ProjectSection from '../components/ProjectSection/ProjectSection';
             <SkillSection client:visible />
             <hr />
             <ProjectSection client:visible />
+            <hr />
+            <ContactSection />
         </main>
     </section>
 </Layout>
