@@ -22,7 +22,7 @@ const Header = () => {
 
     return (
         <header>
-            <img height={100} src='../../assets/logo.png' alt='' />
+            <img height={100} src='../src/assets/logo.png' alt='' />
             <div className='nav-links'>
                 <nav className='nav-links__desktop'>
                     {navLinks.map((link: INavLink) => (
