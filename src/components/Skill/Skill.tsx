@@ -30,11 +30,21 @@ const Skill = (props: ISkillProps) => {
                 <span className='name'>{name}</span>
             </div>
             <div className='skill-rating'>
-                {ratings.map((rating) =>
+                {ratings.map((rating, index) =>
                     rating ? (
-                        <img className='rating-star' src='src\assets\colored-star.svg' alt='' />
+                        <img
+                            key={index}
+                            className='rating-star'
+                            src='src\assets\colored-star.svg'
+                            alt=''
+                        />
                     ) : (
-                        <img className='rating-star' src='src\assets\blank-star.svg' alt='' />
+                        <img
+                            key={index}
+                            className='rating-star'
+                            src='src\assets\blank-star.svg'
+                            alt=''
+                        />
                     )
                 )}
             </div>

@@ -5,7 +5,7 @@ const ProjectSection = () => {
         <section>
             <h3>Projects</h3>
             {projects.map((project) => (
-                <Project {...project} />
+                <Project key={project.title} {...project} />
             ))}
         </section>
     );
