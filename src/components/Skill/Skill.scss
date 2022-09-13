@@ -1,0 +1,49 @@
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.skill-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name {
+    font-weight: 100;
+    font-size: 1.25rem;
+    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.875rem);
+}
+
+.skill-rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-star {
+    width: 35px;
+    height: 35px;
+}
+
+.skill-icon {
+    height: 35px;
+    width: 35px;
+}
+
+@media (max-width: 768px) {
+    .rating-star {
+        width: 25px;
+        height: 25px;
+    }
+    .skill-container {
+        width: 100%;
+    }
+}

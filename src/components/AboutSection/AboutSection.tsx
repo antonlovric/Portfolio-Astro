@@ -4,8 +4,8 @@ const AboutSection = () => {
     return (
         <div>
             <h3>About Me</h3>
-            <div className="container ">
-                <div className="text-container">
+            <div className='container'>
+                <div className='text-container'>
                     <p>
                         I was born on May 1st 1999. and have always felt a strong passion towards
                         computers. After graduating high school as an engineer and participating in
@@ -21,7 +21,7 @@ const AboutSection = () => {
                         React Native.
                     </p>
                 </div>
-                <img src="src\assets\profilna.png" alt="" />
+                <img src='src\assets\profilna.png' alt='' />
             </div>
         </div>
     );

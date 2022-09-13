@@ -10,7 +10,7 @@
 }
 
 .text-container {
-    width: 65ch;
+    max-width: 65ch;
 }
 
 p {
@@ -19,4 +19,16 @@ p {
     line-height: 1.5;
     font-weight: 100;
     font-size: 21px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 0px;
+        gap: 64px;
+        width: 90%;
+        img {
+            height: 200px;
+        }
+    }
 }

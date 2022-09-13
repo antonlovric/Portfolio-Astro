@@ -1,3 +1,16 @@
 h3 {
     text-align: center;
 }
+
+.skills-container {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        width: 90%;
+    }
+}

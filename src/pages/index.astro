@@ -6,14 +6,15 @@ import AboutSection from '../components/AboutSection/AboutSection';
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Anton Lovrić">
+<Layout title='Anton Lovrić'>
     <Header client:load />
     <section>
         <Hero />
         <hr />
         <main>
             <AboutSection />
-            <!-- <SkillSection /> -->
+            <hr />
+            <SkillSection client:visible />
         </main>
     </section>
 </Layout>
