@@ -1,0 +1,48 @@
+.project-container {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.project-image {
+    max-height: 300px;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+}
+
+.project-title {
+    font-size: 1.375rem;
+    font-size: clamp(1.375rem, 1.05rem + 1.625vw, 3rem);
+    font-weight: 100;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: var(--color-highlight);
+    border-radius: 10000px;
+}
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+    }
+}
