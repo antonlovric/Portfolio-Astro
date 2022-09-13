@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Zen Kaku Gothic New';
+    src: url('ZenKakuGothicNew-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic New';
+    src: url('ZenKakuGothicNew-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic New';
+    src: url('ZenKakuGothicNew-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic New';
+    src: url('ZenKakuGothicNew-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Kaku Gothic New';
+    src: url('ZenKakuGothicNew-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
