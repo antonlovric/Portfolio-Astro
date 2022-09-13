@@ -21,7 +21,7 @@ const AboutSection = () => {
                         React Native.
                     </p>
                 </div>
-                <img src='src\assets\profilna.png' alt='' />
+                <img src='/assets/profilna.png' alt='' />
             </div>
         </div>
     );

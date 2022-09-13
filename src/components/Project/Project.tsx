@@ -12,18 +12,18 @@ const Project = (props: IProject) => {
                 </div>
                 <div className='buttons'>
                     <a target={'_blank'} href={props.frontend} className='project-button'>
-                        <img src='src\assets\github.svg' alt='' className='icon' />
+                        <img src='/assets/github.svg' alt='' className='icon' />
                         Frontend
                     </a>
                     {props.backend && (
                         <a target={'_blank'} href={props.backend} className='project-button'>
-                            <img src='src\assets\github.svg' alt='' className='icon' />
+                            <img src='/assets/github.svg' alt='' className='icon' />
                             Backend
                         </a>
                     )}
                     {props.demo && (
                         <a target={'_blank'} href={props.demo} className='project-button'>
-                            <img src='src\assets\play-circle.svg' alt='' className='icon' />
+                            <img src='/assets/play-circle.svg' alt='' className='icon' />
                             Demo
                         </a>
                     )}

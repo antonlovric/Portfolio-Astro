@@ -35,14 +35,14 @@ const Skill = (props: ISkillProps) => {
                         <img
                             key={index}
                             className='rating-star'
-                            src='src\assets\colored-star.svg'
+                            src='assets/colored-star.svg'
                             alt=''
                         />
                     ) : (
                         <img
                             key={index}
                             className='rating-star'
-                            src='src\assets\blank-star.svg'
+                            src='assets/blank-star.svg'
                             alt=''
                         />
                     )
