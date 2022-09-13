@@ -5,7 +5,11 @@ const ContactSection = () => {
             <h3>Contact</h3>
             <p className='subheading'>Feel Free to get in contact with me!</p>
             <div className='contact-container'>
-                <a href='https://www.linkedin.com/in/anton-lovric/' className='contact'>
+                <a
+                    target={'_blank'}
+                    href='https://www.linkedin.com/in/anton-lovric/'
+                    className='contact'
+                >
                     <img src='src\assets\linkedin.svg' alt='' className='contact__icon' />
                     <span className='contact__text'>anton_lovric</span>
                 </a>

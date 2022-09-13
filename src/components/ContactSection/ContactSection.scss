@@ -1,5 +1,7 @@
 .subheading {
     text-align: center;
+    font-size: 1.375rem;
+    font-size: clamp(1.375rem, 1.125rem + 1.25vw, 2.625rem);
 }
 .contact-container {
     display: flex;
@@ -23,6 +25,7 @@
 
 @media (max-width: 768px) {
     .contact-container {
+        margin-top: 30px;
         flex-direction: column;
     }
 
