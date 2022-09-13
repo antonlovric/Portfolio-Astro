@@ -11,18 +11,18 @@ const Project = (props: IProject) => {
                     <p className='project-description'>{props.description}</p>
                 </div>
                 <div className='buttons'>
-                    <a href={props.frontend} className='project-button'>
+                    <a target={'_blank'} href={props.frontend} className='project-button'>
                         <img src='src\assets\github.svg' alt='' className='icon' />
                         Frontend
                     </a>
                     {props.backend && (
-                        <a href={props.backend} className='project-button'>
+                        <a target={'_blank'} href={props.backend} className='project-button'>
                             <img src='src\assets\github.svg' alt='' className='icon' />
                             Backend
                         </a>
                     )}
                     {props.demo && (
-                        <a href={props.demo} className='project-button'>
+                        <a target={'_blank'} href={props.demo} className='project-button'>
                             <img src='src\assets\play-circle.svg' alt='' className='icon' />
                             Demo
                         </a>
