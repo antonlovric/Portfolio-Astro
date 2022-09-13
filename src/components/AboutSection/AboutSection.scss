@@ -1,8 +1,12 @@
 .container {
     display: flex;
     align-items: center;
-    gap: 256px;
+    gap: 128px;
     padding: 0px 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 15px;
 }
 
 .text-container {
