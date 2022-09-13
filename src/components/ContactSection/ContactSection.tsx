@@ -1,7 +1,7 @@
 import './ContactSection.scss';
 const ContactSection = () => {
     return (
-        <section>
+        <section id='contact'>
             <h3>Contact</h3>
             <p className='subheading'>Feel Free to get in contact with me!</p>
             <div className='contact-container'>
