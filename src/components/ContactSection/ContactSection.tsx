@@ -3,7 +3,7 @@ const ContactSection = () => {
     return (
         <section id='contact'>
             <h3>Contact</h3>
-            <p className='subheading'>Feel Free to get in contact with me!</p>
+            <p className='subheading'>Feel free to get in contact with me!</p>
             <div className='contact-container'>
                 <a
                     target={'_blank'}
