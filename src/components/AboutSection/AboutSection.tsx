@@ -8,10 +8,11 @@ const AboutSection = () => {
                 <div className='text-container'>
                     <p>
                         I was born on May 1st 1999. and have always felt a strong passion towards
-                        computers. After graduating high school as an engineer and participating in
-                        various competitions in mechanics and mechanical constructions I decided to
-                        attend Faculty of organization and informatics. I earned my Bachelor’s
-                        degree in September 2022. and I am currently doing my graduate study.
+                        computers. After graduating high school as a mechanical engineer and
+                        participating in various competitions in mechanics and mechanical
+                        constructions I decided to enroll in the Faculty of organization and
+                        informatics in Varazdin. I earned my Bachelor’s degree in September 2022.
+                        and I am currently working on my masters degree.
                     </p>
                     <p>
                         I have been working on my development skills for years, seriously focusing
