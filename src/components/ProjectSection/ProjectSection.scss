@@ -1,0 +1,11 @@
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: var(--color-highlight);
+    border-radius: 10000px;
+    width: 20ch;
+    margin: 30px auto;
+}
