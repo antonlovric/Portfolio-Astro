@@ -22,7 +22,7 @@ const AboutSection = () => {
                         React Native.
                     </p>
                 </div>
-                <img src='/assets/profilna.png' alt='' />
+                <img src='/assets/profilna.webp' alt='' />
             </div>
         </div>
     );
