@@ -20,7 +20,7 @@ export const projects: IProject[] = [
     {
         title: 'Alojzije Jankovic',
         description:
-            'This is a frontend project made using vanilla HTML, SCSS and JS. It is a personal website made for chess grandmaster Alojzije Jankovic. It includes general info, chess game overview and a phrase generator',
+            'This is a frontend project made using vanilla HTML, SCSS and JavaScript. It is a personal website made for chess grandmaster Alojzije Jankovic. It includes general info, chess game overview and a phrase generator',
         image: 'assets/jankovic.webp',
         frontend: 'https://github.com/antonlovric/AlojzijeJankovic',
         demo: 'https://antonlovric.github.io/AlojzijeJankovic/',
@@ -28,7 +28,7 @@ export const projects: IProject[] = [
     {
         title: 'BMI Calculator',
         description:
-            'Simple BMI calculator application made using vanilla HTML, SCSS and JS and ProgressBar js for progress bar animation. ',
+            'This application allows you to calculate your BMI based on your weight and height. It was made using HTML, SCSS, vanilla JavaScript and ProgressBar.js for data visualization.',
         image: 'assets/bmi.webp',
         frontend: 'https://github.com/antonlovric/BMICalculator',
         demo: 'https://antonlovric.github.io/BMICalculator/',
@@ -36,7 +36,7 @@ export const projects: IProject[] = [
     {
         title: 'Portfolio',
         description:
-            'This portfolio was made using Astro since it offers good, lightweight SSG capabilities. Also used React to create componentes needed for this project and styled them using SCSS.',
+            'This portfolio is my first project using Astro. I chose Astro since it offers good, lightweight SSG capabilities. Also used React to create componentes needed for this project and styled them using SCSS.',
         image: 'assets/portfolio.webp',
         frontend: 'https://github.com/antonlovric/Portfolio',
     },
