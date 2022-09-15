@@ -56,6 +56,15 @@ hr {
     border-style: solid;
 }
 
+.invisible {
+    opacity: 0;
+    transition: 0.7s all;
+}
+
+.visible {
+    opacity: 1;
+}
+
 @media (max-width: 992px) {
     * {
         scroll-margin-top: 100px;

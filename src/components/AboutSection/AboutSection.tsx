@@ -1,8 +1,10 @@
 import React from 'react';
+import { useElementAnimation } from '../../hooks/useElementAnimation';
 import './AboutSection.scss';
 const AboutSection = () => {
+    const ref = useElementAnimation();
     return (
-        <div>
+        <div className='invisible' ref={ref}>
             <h3>About Me</h3>
             <div className='container'>
                 <div className='text-container'>

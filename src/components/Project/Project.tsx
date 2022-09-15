@@ -1,8 +1,10 @@
 import { IProject } from './projects';
 import './Project.scss';
+import { useElementAnimation } from '../../hooks/useElementAnimation';
 const Project = (props: IProject) => {
+    const ref = useElementAnimation();
     return (
-        <div className='project-container'>
+        <div ref={ref} className='invisible project-container'>
             <img src={props.image} alt='' className='project-image' />
             <div className='project-info'>
                 <div>
