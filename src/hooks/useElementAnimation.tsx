@@ -9,7 +9,7 @@ export function useElementAnimation() {
                 console.log(entries);
             },
             {
-                threshold: 0.3,
+                threshold: 0.2,
             }
         );
 
