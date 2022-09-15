@@ -3,7 +3,7 @@ import './ProjectSection.scss';
 import { projects } from '../Project/projects';
 import { useElementAnimation } from '../../hooks/useElementAnimation';
 const ProjectSection = () => {
-    const ref = useElementAnimation();
+    const ref = useElementAnimation({ threshold: 0.1 });
     return (
         <section ref={ref} className='invisible' id='projects'>
             <h3>Projects</h3>

@@ -1,6 +1,11 @@
 import { useEffect, useRef } from 'react';
+interface IOptions {
+    root?: Element | null;
+    rootMargin?: string;
+    threshold?: number | number[];
+}
 
-export function useElementAnimation() {
+export function useElementAnimation(props?: IOptions) {
     const ref = useRef(null);
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -9,7 +14,7 @@ export function useElementAnimation() {
                 console.log(entries);
             },
             {
-                threshold: 0.2,
+                ...props,
             }
         );
 
