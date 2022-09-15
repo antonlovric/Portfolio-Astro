@@ -13,7 +13,7 @@ const AboutSection = () => {
                         participating in various competitions in mechanics and mechanical
                         constructions, I decided to enroll at Faculty of Organization and
                         Informatics in Varazdin. I earned my Bachelor’s degree in September 2022.
-                        and I am currently working on my masters degree.
+                        and I am currently working on my master's degree.
                     </p>
                     <p>
                         I have been working on my development skills for years, seriously focusing
