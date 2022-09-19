@@ -11,7 +11,6 @@ export function useElementAnimation(props?: IOptions) {
         const observer = new IntersectionObserver(
             (entries) => {
                 entries[0].isIntersecting && entries[0].target.classList.add('visible');
-                console.log(entries);
             },
             {
                 ...props,
