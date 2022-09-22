@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react';
-import { useElementAnimation } from '../../hooks/useElementAnimation';
+import { useFadeIn } from '../../hooks/useFadeIn';
 import './Hero.scss';
 
 const Hero = () => {
-    const ref = useElementAnimation();
+    const ref = useFadeIn();
     return (
         <section ref={ref} id='home' className='hero-section invisible'>
             <div className='text-container'>

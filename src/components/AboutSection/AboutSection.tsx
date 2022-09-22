@@ -1,7 +1,7 @@
-import { useElementAnimation } from '../../hooks/useElementAnimation';
+import { useFadeIn } from '../../hooks/useFadeIn';
 import './AboutSection.scss';
 const AboutSection = () => {
-    const ref = useElementAnimation();
+    const ref = useFadeIn();
     return (
         <div className='invisible' ref={ref}>
             <h3>About Me</h3>

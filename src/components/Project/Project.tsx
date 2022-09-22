@@ -1,8 +1,8 @@
 import { IProject } from './projects';
 import './Project.scss';
-import { useElementAnimation } from '../../hooks/useElementAnimation';
+import { useFadeIn } from '../../hooks/useFadeIn';
 const Project = (props: IProject) => {
-    const ref = useElementAnimation();
+    const ref = useFadeIn();
     return (
         <div ref={ref} className='invisible project-container'>
             <img src={props.image} alt='' className='project-image' />

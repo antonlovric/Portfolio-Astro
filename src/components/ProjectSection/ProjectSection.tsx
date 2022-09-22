@@ -1,9 +1,9 @@
 import Project from '../Project/Project';
 import './ProjectSection.scss';
 import { projects } from '../Project/projects';
-import { useElementAnimation } from '../../hooks/useElementAnimation';
+import { useFadeIn } from '../../hooks/useFadeIn';
 const ProjectSection = () => {
-    const ref = useElementAnimation({ threshold: 0.1 });
+    const ref = useFadeIn({ threshold: 0.1 });
     return (
         <section ref={ref} className='invisible' id='projects'>
             <h3>Projects</h3>

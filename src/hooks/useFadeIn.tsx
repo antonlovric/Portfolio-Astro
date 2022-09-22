@@ -5,7 +5,7 @@ interface IOptions {
     threshold?: number | number[];
 }
 
-export function useElementAnimation(props?: IOptions) {
+export function useFadeIn(props?: IOptions) {
     const ref = useRef(null);
     useEffect(() => {
         const observer = new IntersectionObserver(
