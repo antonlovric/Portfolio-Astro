@@ -7,8 +7,7 @@ export type SKILL_NAMES =
   | 'JavaScript'
   | 'TypeScript'
   | 'Vue / Nuxt.js'
-  | 'React / Next.js'
-  | 'React Native'
+  | 'React / Next.js / React Native'
   | 'Laravel';
 
 interface ISkillProps {

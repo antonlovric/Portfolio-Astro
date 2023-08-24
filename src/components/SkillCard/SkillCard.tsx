@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { skills } from '../SkillSection/skills';
+import { ISkillItem, skills } from '../SkillSection/skills';
 import './SkillCard.scss';
 
-const SkillCard = () => {
-  const skill = skills[0];
+interface ISkillCard {
+  skill: ISkillItem;
+}
+
+const SkillCard = ({ skill }: ISkillCard) => {
   const [showDescription, setShowDescription] = useState(false);
 
   const toggleDescription = () => setShowDescription(!showDescription);

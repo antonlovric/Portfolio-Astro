@@ -8,11 +8,12 @@ const SkillSection = () => {
   const ref = useFadeIn();
   return (
     <section ref={ref} id='skills' className='invisible skills-container'>
-      <SkillCard />
       <h3>Skills</h3>
-      {skills.map((skill, index) => (
-        <Skill key={index} name={skill.name} rating={skill.rating} image={skill.image} />
-      ))}
+      <div className='skill-cards-container'>
+        {skills.map((skill) => (
+          <SkillCard skill={skill} key={skill.name} />
+        ))}
+      </div>
     </section>
   );
 };

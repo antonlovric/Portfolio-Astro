@@ -24,16 +24,12 @@ export const skills: ISkillItem[] = [
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
   },
   {
-    name: 'React / Next.js',
+    name: 'React / Next.js / React Native',
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
   },
   {
     name: 'Vue / Nuxt.js',
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg',
-  },
-  {
-    name: 'React Native',
-    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
   },
   {
     name: 'Laravel',
