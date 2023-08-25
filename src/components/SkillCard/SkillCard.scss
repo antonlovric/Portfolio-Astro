@@ -31,7 +31,6 @@
 
 .description-title {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   img {
@@ -61,7 +60,7 @@
 
   p {
     color: white;
-    font-weight: bold;
+    font-weight: light;
     font-size: 1.2rem;
     width: 80%;
     margin: 0 auto;
@@ -72,4 +71,8 @@
     height: 150px;
     width: 150px;
   }
+}
+
+.description-text {
+  font-weight: 100;
 }

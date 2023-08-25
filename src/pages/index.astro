@@ -7,22 +7,25 @@ import Layout from '../layouts/Layout.astro';
 import ProjectSection from '../components/ProjectSection/ProjectSection';
 import ContactSection from '../components/ContactSection/ContactSection';
 import Footer from '../components/Footer/Footer';
+import ExperienceSection from '../components/ExperienceSection/ExperienceSection';
 ---
 
 <Layout title='Anton Lovrić'>
-    <Header client:load />
-    <section>
-        <Hero client:visible />
-        <hr />
-        <main>
-            <AboutSection client:visible />
-            <hr />
-            <SkillSection client:visible />
-            <hr />
-            <ProjectSection client:visible />
-            <hr />
-            <ContactSection />
-        </main>
-    </section>
-    <Footer />
+  <Header client:load />
+  <section>
+    <Hero client:visible />
+    <hr />
+    <main>
+      <AboutSection client:visible />
+      <hr />
+      <ExperienceSection client:visible />
+      <hr />
+      <SkillSection client:visible />
+      <hr />
+      <ProjectSection client:visible />
+      <hr />
+      <ContactSection />
+    </main>
+  </section>
+  <Footer />
 </Layout>

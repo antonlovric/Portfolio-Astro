@@ -1,0 +1,47 @@
+.work-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 250px;
+}
+
+.work-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 50px;
+  border-right: 1px solid var(--color-highlight);
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  img {
+    height: 70px;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: var(--color-highlight);
+    border-radius: 9999px;
+    transform: translate(50%, -50%);
+  }
+}
+
+.work-description {
+  padding-left: 150px;
+  display: grid;
+  place-items: center;
+}
+
+.experience-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
