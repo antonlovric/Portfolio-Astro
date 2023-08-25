@@ -17,11 +17,11 @@ const ExperienceSection = () => {
               <div className='work-period'>Varaždin, January 2022 - July 2022</div>
             </div>
           </div>
-          <div className='work-description'>
+          <p className='work-description'>
             At Info3, I excelled as a frontend developer, translating designs into captivating web
             experiences. Proficient in HTML, CSS, and JavaScript, I optimized responsiveness and
             performance for an enhanced user journey.
-          </div>
+          </p>
         </div>
         <div className='work-section'>
           <div className='work-info'>
@@ -32,11 +32,11 @@ const ExperienceSection = () => {
               <div className='work-period'>Varaždin, November 2022 - present</div>
             </div>
           </div>
-          <div className='work-description'>
+          <p className='work-description'>
             At Ericsson Nikola Tesla, I showcased my frontend skills by translating designs into
             compelling web experiences. I adeptly utilized HTML, CSS, and JavaScript to enhance
             responsiveness and ensure seamless user interactions.
-          </div>
+          </p>
         </div>
       </div>
     </section>
