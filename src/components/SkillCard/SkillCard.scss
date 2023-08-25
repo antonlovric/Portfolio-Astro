@@ -20,7 +20,7 @@
 .skill-description-container {
   max-height: 0px;
   background-color: black;
-  z-index: 100;
+  z-index: 10;
 
   transition: all 0.5s;
   display: flex;
@@ -31,7 +31,6 @@
 
 .description-title {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   img {
@@ -61,7 +60,7 @@
 
   p {
     color: white;
-    font-weight: bold;
+    font-weight: light;
     font-size: 1.2rem;
     width: 80%;
     margin: 0 auto;
@@ -71,5 +70,23 @@
   img {
     height: 150px;
     width: 150px;
+  }
+}
+
+.description-text {
+  font-weight: 100;
+}
+
+@media (max-width: 992px) {
+  .skill-card-container {
+    height: 300px;
+    width: 200px;
+  }
+
+  .skill-overview {
+    img {
+      height: 100px;
+      width: 100px;
+    }
   }
 }
