@@ -20,7 +20,7 @@
 .skill-description-container {
   max-height: 0px;
   background-color: black;
-  z-index: 100;
+  z-index: 10;
 
   transition: all 0.5s;
   display: flex;
@@ -75,4 +75,18 @@
 
 .description-text {
   font-weight: 100;
+}
+
+@media (max-width: 992px) {
+  .skill-card-container {
+    height: 300px;
+    width: 200px;
+  }
+
+  .skill-overview {
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
 }
