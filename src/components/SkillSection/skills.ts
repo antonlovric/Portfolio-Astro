@@ -14,12 +14,12 @@ export const skills: ISkillItem[] = [
   {
     name: 'CSS / SCSS',
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg',
-    text: 'Just like I spent a lot of time studying HTML, I also focused heavily on CSS. Later on I moved on to SCSS and now I prefer using Tailwind. Improving styling skills is a priority of mine and something I definitely plan to improve in the coming years.',
+    text: 'Just like I spent a lot of time studying HTML, I also focused heavily on CSS. After conquering the basics I moved on to SCSS and now I love using Tailwind. Other than that I also enjoyed using various UI libraries such as Chakra UI, Ant Design, Material Design etc.  I definitely plan to improve on my design and CSS skills as I feel it is an integral part of any good application. ',
   },
   {
     name: 'JavaScript',
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-    text: "Since I was coming over from C++, JavaScript was a great next step for my personal development. It allowed me to quickly solve various tasks and now it's an irreplaceable part of my day-to-day life.",
+    text: "Since I came over from C++, JavaScript was a great next step for my personal development. It allowed me to quickly solve various tasks and now it's an irreplaceable part of my day-to-day life.",
   },
   {
     name: 'TypeScript',
@@ -29,7 +29,7 @@ export const skills: ISkillItem[] = [
   {
     name: 'React / Next.js / React Native',
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-    text: "React was the first framework I learned and it's still my framework of choice when building web applications. It's an importan part of my skillset and allowed me to move on to Next.JS and Remix. I also have experience in working with React Native / Expo and I love the fact that React allows me to build more than just web applications.",
+    text: "React was the first framework I learned and it's still my framework of choice when building web applications. It's an important part of my skill set and allowed me to move on to Next.JS and Remix. I also have experience in working with React Native / Expo and I love the fact that React allows me to build more than just web applications.",
   },
   {
     name: 'Vue / Nuxt.js',
