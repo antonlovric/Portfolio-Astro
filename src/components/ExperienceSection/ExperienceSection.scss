@@ -1,7 +1,7 @@
 .work-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 250px;
+  min-height: 250px;
 }
 
 .work-info {
@@ -35,13 +35,13 @@
 }
 
 .work-description {
-  padding-left: 150px;
+  padding-left: 100px;
   display: grid;
   place-items: center;
 }
 
 .experience-container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 50px;
 }

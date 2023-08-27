@@ -5,7 +5,7 @@ import './ExperienceSection.scss';
 const ExperienceSection = () => {
   const ref = useFadeIn();
   return (
-    <section ref={ref}>
+    <section ref={ref} id='experience'>
       <h3>Professional Experience</h3>
       <div className='experience-container'>
         <div className='work-section'>
@@ -18,9 +18,12 @@ const ExperienceSection = () => {
             </div>
           </div>
           <p className='work-description'>
-            At Info3, I excelled as a frontend developer, translating designs into captivating web
-            experiences. Proficient in HTML, CSS, and JavaScript, I optimized responsiveness and
-            performance for an enhanced user journey.
+            Info3 gave me my first chance as a frontend developer and it was a brilliant learning
+            experience. I was assigned to a React Native project and had to learn quickly to keep
+            the project going. Later on I moved on to React and Next.JS projects to further improve
+            my knowledge. I was thrown into the deep end which allowed me to grow as a developer and
+            as a person. During my time at Info3 I learned a lot about React but also learned a lot
+            about keeping high standards and continuously improving as a developer.
           </p>
         </div>
         <div className='work-section'>
@@ -33,9 +36,14 @@ const ExperienceSection = () => {
             </div>
           </div>
           <p className='work-description'>
-            At Ericsson Nikola Tesla, I showcased my frontend skills by translating designs into
-            compelling web experiences. I adeptly utilized HTML, CSS, and JavaScript to enhance
-            responsiveness and ensure seamless user interactions.
+            After taking a short break to work on my Bachelor's thesis I joined Ericsson Nikola
+            Tesla as a frontend developer. My past experience at Info3 helped me to settle in
+            quickly and instantly deliver results. Soon after joining the company I started working
+            on a global project as the only frontend developer on my team. I was tasked with making
+            all major architectural frontend decisions and it was a big step for me. Working on such
+            major projects was an exciting experience and allowed me to improve in various facets of
+            development. Since I worked on multiple projects I used various tools, such as multiple
+            component libraries, Tailwind and Vite.
           </p>
         </div>
       </div>
