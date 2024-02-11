@@ -22,6 +22,8 @@ const Header = () => {
     mobileMenu.current?.classList.toggle('hidden');
   };
 
+  const handleLinkClick = () => menuHandler();
+
   return (
     <header>
       <img height={100} src='/assets/logo.webp' alt='' />
@@ -40,7 +42,7 @@ const Header = () => {
         </div>
         <nav ref={mobileMenu} className='nav-links__mobile hidden'>
           {navLinks.map((link: INavLink) => (
-            <a key={link.name} href={link.href}>
+            <a onClick={handleLinkClick} key={link.name} href={link.href}>
               {link.name}
             </a>
           ))}
