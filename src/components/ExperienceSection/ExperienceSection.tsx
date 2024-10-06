@@ -32,7 +32,7 @@ const ExperienceSection = () => {
             <img src='/assets/work-icon.svg' alt='' />
             <div className='info-container'>
               <div className='work-name'>Ericsson Nikola Tesla - Frontend developer</div>
-              <div className='work-period'>Varaždin, November 2022 - present</div>
+              <div className='work-period'>Varaždin, November 2022 - November 2023</div>
             </div>
           </div>
           <p className='work-description'>
@@ -44,6 +44,24 @@ const ExperienceSection = () => {
             major projects was an exciting experience and allowed me to improve in various facets of
             development. Since I worked on multiple projects I used various tools, such as multiple
             component libraries, Tailwind and Vite.
+          </p>
+        </div>
+        <div className='work-section'>
+          <div className='work-info'>
+            <div className='circle'></div>
+            <img src='/assets/work-icon.svg' alt='' />
+            <div className='info-container'>
+              <div className='work-name'>Burai - Fullstack developer</div>
+              <div className='work-period'>Varaždin, November 2023 - present</div>
+            </div>
+          </div>
+          <p className='work-description'>
+            Moving to Burai was a big decision in my career since I held a very stable and
+            prosperous position at Ericsson. Regardless, I felt I needed more so I moved to Burai to
+            improve as a developer and it proved to be a correct decision. I have been growing every
+            day since joining, working primarily on the frontend and occasionally doing backend
+            work. We're working at a very high pace but the work has been rewarding and I can't wait
+            to see what the future has in store for us.
           </p>
         </div>
       </div>

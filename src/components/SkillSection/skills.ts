@@ -38,7 +38,8 @@ export const skills: ISkillItem[] = [
   },
   {
     name: 'Laravel',
-    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg',
+    image:
+      'https://raw.githubusercontent.com/laravel/art/d5f5e725c27f877ed032225fe0b00afee9337d0f/laravel-logo.svg',
     text: "I learned a bit of PHP at University but I truly embraced it when working with Laravel. Laravel was a joy to work with and allowed me to quickly build out the backend for my bachelor's thesis. It was my entry to backend development and I truly enjoyed it.",
   },
   {
