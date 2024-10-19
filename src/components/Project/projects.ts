@@ -18,12 +18,20 @@ export const projects: IProject[] = [
     demo: 'https://freebird-one.vercel.app/',
   },
   {
-    title: 'Alojzije Jankovic',
+    title: 'Tech Tales',
     description:
-      'This is a frontend project made using vanilla HTML, SCSS and JavaScript. It is a personal website made for chess grandmaster Alojzije Jankovic. It includes general info, chess game overview and a phrase generator',
-    image: 'assets/jankovic.webp',
-    frontend: 'https://github.com/antonlovric/AlojzijeJankovic',
-    demo: 'https://antonlovric.github.io/AlojzijeJankovic/',
+      'Tech Tales is the app I built as part of my masters thesis which focused on monolithic and client-server architectures. The frontend was built using Next.JS, while the backend was built using Express.JS.',
+    image: 'assets/tech-tales.webp',
+    frontend: 'https://github.com/antonlovric/tech-tales-client',
+    backend: 'https://github.com/antonlovric/tech-tales-express',
+    demo: 'https://tech-tales-client.vercel.app/',
+  },
+  {
+    title: 'Portfolio',
+    description:
+      'This portfolio is my first project using Astro. I chose Astro since it offers good, lightweight SSG capabilities. Also used React to create componentes needed for this project and styled them using SCSS.',
+    image: 'assets/portfolio.webp',
+    frontend: 'https://github.com/antonlovric/Portfolio',
   },
   {
     title: 'BMI Calculator',
@@ -32,12 +40,5 @@ export const projects: IProject[] = [
     image: 'assets/bmi.webp',
     frontend: 'https://github.com/antonlovric/BMICalculator',
     demo: 'https://antonlovric.github.io/BMICalculator/',
-  },
-  {
-    title: 'Portfolio',
-    description:
-      'This portfolio is my first project using Astro. I chose Astro since it offers good, lightweight SSG capabilities. Also used React to create componentes needed for this project and styled them using SCSS.',
-    image: 'assets/portfolio.webp',
-    frontend: 'https://github.com/antonlovric/Portfolio',
   },
 ];
