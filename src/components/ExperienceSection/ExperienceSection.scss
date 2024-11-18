@@ -2,11 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   min-height: 250px;
-}
-
-.work-info,
-.work-description {
-  padding-bottom: 50px;
+  gap: 64px;
 }
 
 .work-info {
@@ -14,7 +10,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  padding-right: 50px;
+  padding-right: 16px;
   border-right: 1px solid var(--color-highlight);
 
   .info-container {
@@ -40,7 +36,6 @@
 }
 
 .work-description {
-  padding-left: 100px;
   display: grid;
   place-items: center;
 }

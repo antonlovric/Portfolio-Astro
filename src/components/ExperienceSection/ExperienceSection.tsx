@@ -51,7 +51,7 @@ const ExperienceSection = () => {
             <div className='circle'></div>
             <img src='/assets/work-icon.svg' alt='' />
             <div className='info-container'>
-              <div className='work-name'>Burai - Fullstack developer</div>
+              <div className='work-name'>Burai - Frontend developer</div>
               <div className='work-period'>Varaždin, November 2023 - present</div>
             </div>
           </div>
