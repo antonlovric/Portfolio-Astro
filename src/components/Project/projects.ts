@@ -9,15 +9,6 @@ export interface IProject {
 
 export const projects: IProject[] = [
   {
-    title: 'Free Bird Music',
-    description:
-      'This is a fullstack application created as part of my Bachelor’s Thesis. The backend is created using Laravel while the frontend is created using Nuxt 3.',
-    image: 'assets/freebird.webp',
-    frontend: 'https://github.com/antonlovric/freebird-front',
-    backend: 'https://github.com/antonlovric/freebird-music',
-    demo: 'https://freebird-one.vercel.app/',
-  },
-  {
     title: 'Tech Tales',
     description:
       'Tech Tales is the app I built as part of my masters thesis which focused on monolithic and client-server architectures. The frontend was built using Next.JS, while the backend was built using Express.JS.',
@@ -25,6 +16,15 @@ export const projects: IProject[] = [
     frontend: 'https://github.com/antonlovric/tech-tales-client',
     backend: 'https://github.com/antonlovric/tech-tales-express',
     demo: 'https://tech-tales-client.vercel.app/',
+  },
+  {
+    title: 'Free Bird Music',
+    description:
+      'This is a fullstack application created as part of my Bachelor’s Thesis. The backend is created using Laravel while the frontend is created using Nuxt 3.',
+    image: 'assets/freebird.webp',
+    frontend: 'https://github.com/antonlovric/freebird-front',
+    backend: 'https://github.com/antonlovric/freebird-music',
+    demo: 'https://freebird-one.vercel.app/',
   },
   {
     title: 'Portfolio',
