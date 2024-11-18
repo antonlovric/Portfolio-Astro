@@ -1,4 +1,4 @@
-import { SKILL_NAMES } from '../Skill/Skill';
+import type { SKILL_NAMES } from '../Skill/Skill';
 
 export interface ISkillItem {
   name: SKILL_NAMES;
