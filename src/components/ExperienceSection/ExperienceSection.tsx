@@ -13,17 +13,36 @@ const ExperienceSection = () => {
             <div className='circle'></div>
             <img src='/assets/work-icon.svg' alt='' />
             <div className='info-container'>
-              <div className='work-name'>Info3 - Frontend developer</div>
-              <div className='work-period'>Varaždin, January 2022 - July 2022</div>
+              <div className='work-name'>Burai - Frontend lead</div>
+              <div className='work-period'>Varaždin, November 2024 - present</div>
             </div>
           </div>
           <p className='work-description'>
-            Info3 gave me my first chance as a frontend developer and it was a brilliant learning
-            experience. I was assigned to a React Native project and had to learn quickly to keep
-            the project going. Later on I moved on to React and Next.JS projects to further improve
-            my knowledge. I was thrown into the deep end which allowed me to grow as a developer and
-            as a person. During my time at Info3 I learned a lot about React but also learned a lot
-            about keeping high standards and continuously improving as a developer.
+            After a very successful year of working as a developer in Burai, I took on the
+            leadership position in the Frontend team. I was tasked with mentoring other developers,
+            managing team performance and organizing workshops. My Master's in Informatics in
+            Education has proved to be very helpful and allowed me to build up the skills of other
+            team members. Other than building technical skills of other team members, I also put in
+            a lot of focus of building a winning culture inside the Engineering department and built
+            a strong relationship with other departments within the organization.
+          </p>
+        </div>
+        <div className='work-section'>
+          <div className='work-info'>
+            <div className='circle'></div>
+            <img src='/assets/work-icon.svg' alt='' />
+            <div className='info-container'>
+              <div className='work-name'>Burai - Frontend developer</div>
+              <div className='work-period'>Varaždin, November 2023 - November 2024</div>
+            </div>
+          </div>
+          <p className='work-description'>
+            Moving to Burai was a big decision in my career since I held a very stable and
+            prosperous position at Ericsson. Regardless, I felt I needed more so I moved to Burai to
+            improve as a developer and it proved to be a correct decision. I have been growing every
+            day since joining, working primarily on the frontend and occasionally doing backend
+            work. We're working at a very high pace but the work has been rewarding and I can't wait
+            to see what the future has in store for us.
           </p>
         </div>
         <div className='work-section'>
@@ -51,17 +70,17 @@ const ExperienceSection = () => {
             <div className='circle'></div>
             <img src='/assets/work-icon.svg' alt='' />
             <div className='info-container'>
-              <div className='work-name'>Burai - Frontend developer</div>
-              <div className='work-period'>Varaždin, November 2023 - present</div>
+              <div className='work-name'>Info3 - Frontend developer</div>
+              <div className='work-period'>Varaždin, January 2022 - July 2022</div>
             </div>
           </div>
           <p className='work-description'>
-            Moving to Burai was a big decision in my career since I held a very stable and
-            prosperous position at Ericsson. Regardless, I felt I needed more so I moved to Burai to
-            improve as a developer and it proved to be a correct decision. I have been growing every
-            day since joining, working primarily on the frontend and occasionally doing backend
-            work. We're working at a very high pace but the work has been rewarding and I can't wait
-            to see what the future has in store for us.
+            Info3 gave me my first chance as a frontend developer and it was a brilliant learning
+            experience. I was assigned to a React Native project and had to learn quickly to keep
+            the project going. Later on I moved on to React and Next.JS projects to further improve
+            my knowledge. I was thrown into the deep end which allowed me to grow as a developer and
+            as a person. During my time at Info3 I learned a lot about React but also learned a lot
+            about keeping high standards and continuously improving as a developer.
           </p>
         </div>
       </div>
