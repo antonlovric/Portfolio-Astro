@@ -33,12 +33,4 @@ export const projects: IProject[] = [
     image: 'assets/portfolio.webp',
     frontend: 'https://github.com/antonlovric/Portfolio',
   },
-  {
-    title: 'BMI Calculator',
-    description:
-      'This application allows you to calculate your BMI based on your weight and height. It was made using HTML, SCSS, vanilla JavaScript and ProgressBar.js for data visualization.',
-    image: 'assets/bmi.webp',
-    frontend: 'https://github.com/antonlovric/BMICalculator',
-    demo: 'https://antonlovric.github.io/BMICalculator/',
-  },
 ];
