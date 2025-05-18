@@ -15,7 +15,6 @@ export const projects: IProject[] = [
     image: 'assets/tech-tales.webp',
     frontend: 'https://github.com/antonlovric/tech-tales-client',
     backend: 'https://github.com/antonlovric/tech-tales-express',
-    demo: 'https://tech-tales-client.vercel.app/',
   },
   {
     title: 'Free Bird Music',
@@ -24,7 +23,6 @@ export const projects: IProject[] = [
     image: 'assets/freebird.webp',
     frontend: 'https://github.com/antonlovric/freebird-front',
     backend: 'https://github.com/antonlovric/freebird-music',
-    demo: 'https://freebird-one.vercel.app/',
   },
   {
     title: 'Portfolio',
