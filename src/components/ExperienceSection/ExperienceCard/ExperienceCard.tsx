@@ -33,7 +33,7 @@ export const ExperienceCard = ({
 
       <div className={`experience-card ${isExpanded ? 'expanded' : ''}`} onClick={toggleExpand}>
         <div className='card-header'>
-          <div className='icon'>
+          <div className='experience-icon'>
             <svg fill='none' stroke='currentColor' viewBox='0 0 24 24'>
               <path
                 strokeLinecap='round'
