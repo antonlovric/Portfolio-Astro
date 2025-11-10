@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ISkillItem, skills } from '../SkillSection/skills';
+import type { ISkillItem } from '../SkillSection/skills';
 import './SkillCard.scss';
 
 interface ISkillCard {
